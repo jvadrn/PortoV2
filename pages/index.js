@@ -8,9 +8,7 @@ import { Avatar } from "../components/Avatar"
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Bonhomme - Developer</title>
-      </Head>
+      
       <Cursor />
 
       <Box py="115px" px={4} maxWidth={500} mx="auto">
@@ -21,99 +19,58 @@ export default function Home() {
           <GridItem colSpan={3}>
             <Box>
               <Heading as="h1" size="lg">
-                Maxime Bonhomme
+                Jevi Adriansyah
               </Heading>
-              <Text>Product-focused Developer</Text>
-              <Link
-                color="white"
-                opacity={0.5}
-                href="https://etherscan.io/address/0xff5fe6e0d3d48c90a66217dd4a7560a3ed8dacd2"
-              >
-                bonhomme.eth
-              </Link>
+              <Text>Qualiti Assurance | Junior Software Enggeneer</Text>
             </Box>
           </GridItem>
         </Grid>
         <Box mb={14}>
           <Heading as="h2" size="md" mb={2}>
-            About
+            About Me
           </Heading>
-          <Text>
-            GM, I'm Max. I enjoy building dynamic, creative products from start to
-            finish. Focused on developing intuitive experiences that constantly grow and
-            improve based on user metrics. Always shipping.
+          <Text>        
+            I am a fresh graduate from Politeknik Negeri Lampung, majoring in Information Technology, 
+            with a passion for Quality Assurance and Software Engineering. My academic journey and active 
+            involvement in student organizations have equipped me with strong communication, teamwork, and problem-solving skills
           </Text>
         </Box>
         <Box mb={14}>
           <Heading as="h2" size="md" mb={10}>
-            Work Experience
+             Experience
           </Heading>
 
           <Experience
-            href="https://iyk.app"
-            side="2022 - present"
-            title="Senior Frontend Engineer – IYK"
-            desc="Building the Whole Wide World﹡"
-            stack="Remix • Prisma • Tailwind • Shadcn"
+            side="March - June 2024"
+            title="Software Quality Assurance (Intern)"
+            desc="Performed web testing to ensure functionality and quality"
+            stack="Playwright • Robot Framework • Cypress • Selenium • TestNG"
           />
+
+          <Heading as="h2" size="md" mb={10}>
+             Organizations Experience
+          </Heading>
+
           <Experience
-            href="https://everpress.com/"
-            side="2020 - 2022"
-            title="Full Stack & Technical Lead – Everpress"
-            desc="Led a team of 5 engineers to develop our creator tools and e-commerce
-        app. Collaborated closely with the Head of Product to track our tactical
-        objectives, improve technical directions and shipping frequency."
-            stack="React • Redux • Symfony • AWS"
+            side="2021 - 2024 "
+            title="UKM PERSSUKMA"
+            desc="UKM PERS Media"
+            stack="Deputy Chief Editor (2023 - 2024)"
           />
-          <Experience
-            side="2016 – 2020"
-            title="Front End Engineer – Freelance"
-            desc="Worked with a range of large and small agencies, start-ups and individuals to build products. Clients included Marvel App, United Nations, Netflix, Dropbox Design."
-            stack="React • Redux • Styled Components • Framer Motion"
-          />
-          <Experience
-            href="https://neverbland.com/"
-            side="2014 – 2016"
-            title="Front End Engineer – Neverbland"
-            desc="Part of a tight-knit team of designers, developers and critical thinkers, I built MVP products and marketing experiences for start-ups."
-            stack="React • Redux • CSSModules • Three.js"
-          />
+          
 
           <Heading as="h2" size="md" mt={14} mb={10}>
-            Side Projects
+           Education
           </Heading>
 
           <Experience
-            href="https://www.instagram.com/dolenn.bzh"
-            image="/dolenn-single.png"
-            side="ongoing"
-            title="Dolenn - Hot Sauce"
-            desc="Making hot sauces with a friend, made in Brittany with local ingredients."
-            stack="Design • Illustration • Packaging • Cooking"
+             href="https://www.instagram.com/dolenn.bzh"
+             side="2021 - 2024"
+             title="Politeknik Negeri Lampung"
+             desc="Teknologi Informasi"
+             stack="GPA 3.66"
           />
-          <Experience
-            href="https://offline.london"
-            image="/offline-favicon.png"
-            side="2024"
-            title="Offline Nostalgia"
-            desc="Generative art project around the offline era. Physical mint."
-            stack="Solidity • IYK Chips • fully onchain"
-          />
-          <Experience
-            image="/tamiko.svg"
-            side="Paused"
-            title="Tamiko"
-            desc="Tamiko are non-fungible friends that live completely on-chain. You can hatch, feed, breed and evolve them."
-            stack="Solidity • ERC721 • ERC1155 • Next.js"
-          />
-          <Experience
-            href="https://kineticspectru.ms/"
-            image="/kineticspectrum.png"
-            side="2022"
-            title="Kinetic Spectrums"
-            desc="Generative on-chain NFTs. A collection of dynamic, ever changing artworks."
-            stack="Solidity • ERC721 • Next.js"
-          />
+
 
           <Heading as="h2" size="md" mt={14} mb={10}>
             Links
@@ -121,28 +78,17 @@ export default function Home() {
 
           <Experience
             side="Github"
-            title="@maximebonhomme"
-            href="https://github.com/maximebonhomme"
+            title="@jvadrn"
+            href="https://github.com/jvadrn"
             mb={4}
           />
           <Experience
-            side="Etherscan"
-            title="bonhomme.eth"
-            href="https://etherscan.io/address/0xff5fe6e0d3d48c90a66217dd4a7560a3ed8dacd2"
+            side="LinkIdn"
+            title="@JeviAdriansyah"
+            href="https://www.linkedin.com/in/jevi-adriansyah/"
             mb={4}
           />
-          <Experience
-            side="Foundation"
-            title="@bonhomme"
-            href="https://foundation.app/@bonhomme?tab=owned"
-            mb={4}
-          />
-          <Experience
-            side="Twitter"
-            title="@pixel_arts"
-            href="https://twitter.com/pixel_arts"
-            mb={4}
-          />
+          
         </Box>
       </Box>
     </>

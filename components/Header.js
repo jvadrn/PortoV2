@@ -21,9 +21,9 @@ export const Header = () => {
       alignItems="center"
       justifyContent="space-between"
     >
-      <Image src="/logo.svg" alt="Bonhomme" />
+      {/* <Image src="/logo.svg" alt="Bonhomme" />
 
-      <ConnectKitButton accountStatus="avatar" chainStatus="icon" showBalance={false} />
+      <ConnectKitButton accountStatus="avatar" chainStatus="icon" showBalance={false} /> */}
     </Flex>
   )
 }
